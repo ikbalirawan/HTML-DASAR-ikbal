@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlink 1</title>
+</head>
+<body>
+
+    <h1>Hyperlink 1</h1>
+    
+    <!-- link adalah koneksi dari sebuah sumber web ke sumber lain
+        komponent ini sangat penting dalam sebuah web
+        tag a singkatan dari anchor / jangkar -->
+
+    <!-- didalam href kita bisa menuliskan : 
+    - external link : http://google.com
+    - internal link : Hyperlink2.html => halaman website lain yang ada didalam domain kita
+    - relative url : Hyperlink3/Hyperlink3.html => untuk masuk kedalam sebuah folder dan jika ingin naik 1 folder diatasnya bisa menggunakan ../ -->
+    <p><a href="http://google.com"> Klik disini </a> untuk pindah ke google.</p>
+    <p><a href="Hyperlink2.html"> Klik disini </a> untuk pindah ke link 2.</p>
+    <p><a href="Hyperlink3/Hyperlink3.html"> Klik disini </a> untuk pindah ke link 3.</p>
+    
+    <!-- - page anchor : #about / Hyperlink2#about => bagian tertentu dari sebuah halaman -->
+    <ul>
+        <li><a href="#teks1">Teks 1</a></li>
+        <li><a href="#teks2">Teks 2</a></li>
+        <li><a href="#teks3">Teks 3</a></li>
+    </ul>
+
+    <h2 id="teks1">Teks 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed eos, voluptates sequi pariatur sint culpa iure dolorem architecto temporibus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis fugiat maxime aut, odit dolore maiores fugit recusandae aliquam quisquam.</p>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    
+    <h2 id="teks2">Teks 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed eos, voluptates sequi pariatur sint culpa iure dolorem architecto temporibus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis fugiat maxime aut, odit dolore maiores fugit recusandae aliquam quisquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga porro ipsa ab qui dignissimos nisi delectus magni! Illo culpa dolorum quis dolore a modi libero fuga nemo eum velit?</p>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    
+    <h2 id="teks3">Teks 3</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed eos, voluptates sequi pariatur sint culpa iure dolorem architecto temporibus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis fugiat maxime aut, odit dolore maiores fugit recusandae aliquam quisquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorem sapiente deleniti distinctio accusamus illum repellendus sed aut reiciendis, eligendi, architecto cum. Odio excepturi consequatur possimus voluptatum, asperiores quae dicta?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum numquam ducimus perferendis, tempora itaque cumque perspiciatis consequuntur illum possimus doloremque aliquid at expedita animi sint tenetur temporibus quos accusantium.</p>
+    <br><br><br><br><br><br><br><br><br><br>
+    
+    <!-- beberapa atribut dalam anchor : 
+    <a target="_self"></a> => untuk membuka link dihalaman yang sama
+    <a target="_blank"></a> => untuk membuka di tab baru
+    <a target="_parent"></a> 
+    <a target="_top"></a> -->
+
+    <p><a href="http://google.com" target="_blank"> Buka tab baru </a></p>
+
+</body>
+</html>
